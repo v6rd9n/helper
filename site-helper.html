@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html&css syntax</title>
+    <link rel="stylesheet" href="site-helper.css">
+    <script src="compile.js"></script>
+</head>
+<body>
+
+    <div class="container">
+ 
+        <div class="info">
+
+
+
+            <div class="html">
+                <div class="title">
+                    <h1>&lt;HTML&gt;</h1>
+                    <h3 class="intro">HTML — язык гипертекстовой разметки сайта, помогающий структурировать содержание каждой веб-страницы. С помощью HTML разработчик собирает «скелет» сайта.</h3>
+                </div>
+
+                <dl class="tags">
+                <dt class="tag-names">a</dt>
+                <dd class="tag_meaning">&lt;a href=""&gt;&lt;/a&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, определяет гиперссылку, которая используется для перехода с одной страницы на другую.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">abbr</dt>
+                <dd class="tag_meaning">&lt;abbr title=""&gt;&lt;/abbr&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, определяет сокращение, например "HTML", "CSS".</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">acronym</dt>
+                <dd class="tag_meaning">&lt;acronym title="&gt;&lt;/acronym&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, позволяет авторам четко указать последовательность символов, составляющих аббревиатуру слова. Тег не рекомендуется, лучше используйте &lt;abbr&gt;.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">base</dt>
+                <dd class="tag_meaning">&lt;base href=""/&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, задает базовый URL, который будет использоваться для всех относительных URL-адресов в документе. В документе может быть только один &lt;base&gt; элемент.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">basefont</dt>
+                <dd class="tag_meaning">&lt;basefont /&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, предназначен для задания шрифта, размера и цвета текста по умолчанию. Указанные значения будут использоваться во всем документе за исключением тега &lt;font&gt;.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">br</dt>
+                <dd class="tag_meaning">&lt;br /&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, создает перевод строки в тексте.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">hr</dt>
+                <dd class="tag_meaning">&lt;hr /&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, Рисует горизонтальную прямую.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">bdo</dt>
+                <dd class="tag_meaning"> &lt;bdo dir=""&gt;&lt;/bdo&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, переопределяет текущую направленность текста, текст внутри отображается в другом направлении.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">colgroup</dt>
+                <dd class="tag_meaning">&lt;colgroup&gt;&lt;/colgroup&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, определяет группу столбцов в таблице.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">col</dt>
+                <dd class="tag_meaning">&lt;col /&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, определяет один или несколько столбцов в группе столбцов, представленной его родительским &lt;colgroup&gt; элементом.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">link</dt>
+                <dd class="tag_meaning">&lt;link rel="stylesheet" href="" /&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, чаще всего используется для создания ссылок на таблицы стилей, но также используется для создания значков сайта.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">meta</dt>
+                <dd class="tag_meaning">&lt;meta /&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, предоставляет метаданные или информацию о HTML-документе. Он включает в себя такую информацию, как набор символов, описание, ключевые слова и другие важные детали.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">style</dt>
+                <dd class="tag_meaning">&lt;style&gt;&lt;/style&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, содержит информацию о стиле документа или части документа.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">script</dt>
+                <dd class="tag_meaning">&lt;script&gt;&lt;/script&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, используется для встраивания исполняемого кода или данных; обычно он используется для встраивания кода JavaScript или ссылки на него.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">img</dt>
+                <dd class="tag_meaning"> &lt;img src="" alt=""/&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, встраивает изображение.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">source</dt>
+                <dd class="tag_meaning">&lt;source /&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, обычно используется для предоставления одного и того же медиаконтента в нескольких форматах файлов, чтобы обеспечить совместимость с широким спектром браузеров.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">iframe</dt>
+                <dd class="tag_meaning">&lt;iframe src="" frameborder="0"&gt;&lt;/iframe&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, встраивает другую HTML-страницу в текущую.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">embed</dt>
+                <dd class="tag_meaning">&lt;embed src="" type="" /&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, вставляет расширенный контент в выбранное место документа.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">object</dt>
+                <dd class="tag_meaning">&lt;object data="" type=""&gt;&lt;/object&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, представляет внешний ресурс, который может обрабатываться как изображение, вложенный контекст просмотра или ресурс, обрабатываемый плагином.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">area</dt>
+                <dd class="tag_meaning">&lt;area shape="" coords="" href="" target="" alt=""/&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, определяет область внутри карты изображения, которая имеет предопределенные области с возможностью кликабельности.</dd>    
+
+                </dl><dl class="tags">
+                <dt class="tag-names">map</dt>
+                <dd class="tag_meaning">&lt;map name=""&gt;&lt;/map&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, используется с &lt;area&gt; элементами для определения карты изображений (области кликабельных ссылок).</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">form</dt>
+                <dd class="tag_meaning">&lt;form action=""&gt;&lt;/form&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, представляет раздел документа, содержащий интерактивные элементы управления для отправки информации.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">label</dt>
+                <dd class="tag_meaning">&lt;label for=""&gt;&lt;/label&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, представляет заголовок для элемента в пользовательском интерфейсе.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">input</dt>
+                <dd class="tag_meaning">&lt;input type="" id=""/&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, используется для создания интерактивных элементов управления для веб-форм с целью приема данных от пользователя.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">select</dt>
+                <dd class="tag_meaning">&lt;select name="" id=""&gt;&lt;/select&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, представляет элемент управления, который предоставляет меню опций.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">textarea</dt>
+                <dd class="tag_meaning">&lt;textarea name="" id="" cols="30" rows="10"&gt;&lt;/textarea&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, представляет собой многострочный элемент управления редактированием обычного текста, полезный,
+                     когда вы хотите разрешить пользователям вводить значительный объем текста произвольной формы.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">video</dt>
+                <dd class="tag_meaning">&lt;video src=""&gt;&lt;/video&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, встраивает в документ медиаплеер, поддерживающий воспроизведение видео.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">audio</dt>
+                <dd class="tag_meaning">&lt;audio src=""&gt;&lt;/audio&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, используется для встраивания звукового контента в документы.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">keygen</dt>
+                <dd class="tag_meaning">&lt;keygen /&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, используется для указания поля генератора пары ключей в форме.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">command</dt>
+                <dd class="tag_meaning">&lt;command /&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, создает команду в виде переключателя, флажка или обычной кнопки.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">bq</dt>
+                <dd class="tag_meaning">&lt;blockquote&gt;&lt;/blockquote&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, указывает, что вложенный текст является расширенной цитатой.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">fig</dt>
+                <dd class="tag_meaning">&lt;figure&gt;&lt;/figure&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, представляет собой автономное содержимое, потенциально с необязательным элементом подписи, который указывается с помощью &lt;figcaption&gt; элемента.</dd>
+                
+                </dl><dl class="tags">
+                <dt class="tag-names">figcapt</dt>
+                <dd class="tag_meaning">&lt;figcaption&gt;&lt;/figcaption&gt;</dd>
+                <dd class="dop tag_meaning">Одиночный тег, представляет собой заголовок или легенду, описывающую остальное содержимое его родительского &lt;figure&gt; элемента</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">pic</dt>
+                <dd class="tag_meaning">&lt;picture&gt;&lt;/picture&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, предлагает альтернативные версии изображения для различных сценариев отображения / устройства.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">cap</dt>
+                <dd class="tag_meaning">&lt;caption&gt;&lt;/caption&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, задает заголовок таблицы, предоставляя ей доступное описание.</dd>
+                
+                </dl><dl class="tags">
+                <dt class="tag-names">colg</dt>
+                <dd class="tag_meaning">&lt;colgroup&gt;&lt;/colgroup&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, определяет группу столбцов в таблице.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">fset</dt>
+                <dd class="tag_meaning">&lt;fieldset&gt;&lt;/fieldset&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, используется для группировки нескольких элементов управления.</dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">btn</dt>
+                <dd class="tag_meaning">&lt;button&gt;&lt;/button&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, интерактивный элемент, активируемый пользователем с помощью мыши, клавиатуры, пальца,
+                     голосовой команды или другой вспомогательной технологии. </dd>
+
+                </dl><dl class="tags">
+                <dt class="tag-names">optg</dt>
+                <dd class="tag_meaning">&lt;optgroup&gt;&lt;/optgroup&gt;</dd>
+                <dd class="dop tag_meaning">Парный тег, создает группировку опций внутри &lt;select&gt; элемента.</dd>
+                </dl>
+            </div>      
+
+            <div class="css">
+
+                <div class="title">
+                    <h1>&lt;CSS&gt;</h1>
+                    <h3 class="intro">CSS — это язык для определения того, как документы оформляются, размещаются и т.д.</h3>
+                </div>
+                
+                <div class="block">    
+                    <h3 class="block-names">color</h3>
+
+                    <dl class="tags">
+                    <dt class="tag-names">c</dt>
+                    <dd class="tag_meaning">color:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">c:r</dt>
+                    <dd class="tag_meaning">color:rgb();</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">op</dt>
+                    <dd class="tag_meaning">opacity:;</dd>
+                    </dl>
+                </div>
+                <div class="block">   
+                    <h3 class="block-names">background</h3>
+
+                    <dl class="tags">
+                    <dt class="tag-names">bg</dt>
+                    <dd class="tag_meaning">background:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">bgc</dt>
+                    <dd class="tag_meaning">background-color:;</dd>
+                    </dl>
+                </div>
+                <div class="block">  
+                    <h3 class="block-names">font</h3>
+
+                    <dl class="tags">
+                    <dt class="tag-names">fw</dt>
+                    <dd class="tag_meaning">font-weight:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">ff</dt>
+                    <dd class="tag_meaning">font-family:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">fz</dt>
+                    <dd class="tag_meaning">font-size:;</dd>
+                    </dl>
+                </div>  
+                <div class="block">
+                    <h3 class="block-names">position</h3>
+
+                    <dl class="tags">
+                    <dt class="tag-names">pos</dt>
+                    <dd class="tag_meaning">position:relative;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">pos:s</dt>
+                    <dd class="tag_meaning">position:static;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">pos:a</dt>
+                    <dd class="tag_meaning">position:absolute;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">pos:f</dt>
+                    <dd class="tag_meaning">position:fixed;</dd>
+                    </dl>
+                </div>
+                <div class="block">
+                    <h3 class="block-names">float</h3>
+
+                    <dl class="tags">
+                    <dt class="tag-names">fl</dt>
+                    <dd class="tag_meaning">float:left;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">fl:n</dt>
+                    <dd class="tag_meaning">float:none;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">fl:l</dt>
+                    <dd class="tag_meaning">float:left;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">fl:l</dt>
+                    <dd class="tag_meaning">float:left;</dd>
+                    </dl>
+                </div>
+                <div class="block">   
+                    <h3 class="block-names">box-sizing</h3>
+
+                    <dl class="tags">
+                    <dt class="tag-names">bxz</dt>
+                    <dd class="tag_meaning">box-sizing:border-box;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">w</dt>
+                    <dd class="tag_meaning">width:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">h</dt>
+                    <dd class="tag_meaning">height:;</dd>
+                    </dl>
+                </div>
+                <div class="block">    
+                    <h3 class="block-names">padding</h3>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">p</dt>
+                    <dd class="tag_meaning">padding:;</dd>
+                    </dl><dl class="tags">
+                    <dt class="tag-names">pt</dt>
+                    <dd class="tag_meaning">padding-top:;</dd>
+                    </dl><dl class="tags">
+                    <dt class="tag-names">pr</dt>
+                    <dd class="tag_meaning">padding-right:;</dd>
+                    </dl><dl class="tags">
+                    <dt class="tag-names">pb</dt>
+                    <dd class="tag_meaning">padding-bottom:;</dd>
+                    </dl><dl class="tags">
+                    <dt class="tag-names">pl</dt>
+                    <dd class="tag_meaning">padding-left:;</dd>
+                    </dl>
+                </div>
+                <div class="block">  
+                    <h3 class="block-names">border</h3>
+
+                    <dl class="tags">
+                    <dt class="tag-names">bd</dt>
+                    <dd class="tag_meaning">border:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">bdt+</dt>
+                    <dd class="tag_meaning">border-top:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">bdr+</dt>
+                    <dd class="tag_meaning">border-right:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">bdl, bl</dt>
+                    <dd class="tag_meaning">border-left:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">bdb, bb</dt>
+                    <dd class="tag_meaning">border-bottom:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">bdrs</dt>
+                    <dd class="tag_meaning">border-radius:;</dd>
+                    </dl>
+                </div>  
+                <div class="block">
+                    <h3 class="block-names">margin</h3>
+
+                    <dl class="tags">
+                    <dt class="tag-names">margin</dt>
+                    <dd class="tag_meaning">margin:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">m:a</dt>
+                    <dd class="tag_meaning">margin:auto;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">mt:a</dt>
+                    <dd class="tag_meaning">margin-top:auto;</dd>
+
+                    </dl><dl class="tags">   
+                    <dt class="tag-names">mr</dt>
+                    <dd class="tag_meaning">margin-right:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">mr:a</dt>
+                    <dd class="tag_meaning">margin-right:auto;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">mb</dt>
+                    <dd class="tag_meaning">margin-bottom:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">mb:a</dt>
+                    <dd class="tag_meaning">margin-bottom:auto;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">ml</dt>
+                    <dd class="tag_meaning">margin-left:;</dd>
+
+                    </dl><dl class="tags">
+                    <dt class="tag-names">ml:a</dt>
+                    <dd class="tag_meaning">margin-left:auto;</dd>
+                    </dl>
+                </div>
+            </div>
+        
+        
+        </div>
+
+        <div class="compile">
+            <div class="controls">
+                <textarea class="textarea" id="htmlInput" placeholder="Введите HTML-код" rows="10" cols="50"></textarea>  
+                <textarea class="textarea" id="cssInput" placeholder="Введите CSS-код" rows="10" cols="50"></textarea>
+            </div>
+            <button class="button" onclick="compileHTML() ">Компилировать</button>
+            <iframe class="outputFrame" id="outputFrame" width="1000px" height="300px"></iframe>
+        </div>
+
+    </div>
+</body>
+</html>
